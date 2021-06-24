@@ -17,7 +17,7 @@ import javax.persistence.Table;
 import javax.validation.constraints.Max;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.kodlamaIO.hmrs.entities.dtos.CurriculumVitae;
+//import com.kodlamaIO.hmrs.entities.dtos.CurriculumVitae;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
