@@ -75,8 +75,8 @@ public class Experience {
 	@JoinColumn(name = "id", referencedColumnName = "jobseeker_id")
 	private JobSeekers jobSeeker;
 	
-	@JsonIgnore
-	@OneToMany(mappedBy = "experience")	
-	private List<CurriculumVitae> curriculumVitaes;
+//	@JsonIgnore
+//	@OneToMany(mappedBy = "experience")
+//	private List<CurriculumVitae> curriculumVitaes;
 
 }

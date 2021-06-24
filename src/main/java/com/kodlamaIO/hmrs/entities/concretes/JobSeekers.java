@@ -48,7 +48,7 @@ public class JobSeekers {
             strategy = GenerationType.IDENTITY,
             generator = "jobseeker_sequence"
     )
-    @Column(name = "id")
+    @Column(name = "jobseeker_id")
 	private Long id;
 	
 	@NotNull
@@ -78,9 +78,9 @@ public class JobSeekers {
 	@JoinColumn(name = "user_id")
 	private User user;
 	
-	@JsonIgnore
-	@OneToMany(mappedBy = "jobSeekers")	
-	private List<CurriculumVitae> curriculumVitaes;
+//	@JsonIgnore
+//	@OneToMany(mappedBy = "jobSeekers")
+//	private List<CurriculumVitae> curriculumVitaes;
 	
 	@JsonIgnore
 	@OneToMany(mappedBy = "jobSeeker")

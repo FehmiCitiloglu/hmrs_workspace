@@ -45,7 +45,7 @@ public class ProgrammingLanguage {
 	private String languageName;
 	
 	
-	@JsonIgnore
-	@OneToMany(mappedBy = "programmingLanguage")	
-	private List<CurriculumVitae> curriculumVitaes;
+//	@JsonIgnore
+//	@OneToMany(mappedBy = "programmingLanguage")
+//	private List<CurriculumVitae> curriculumVitaes;
 }

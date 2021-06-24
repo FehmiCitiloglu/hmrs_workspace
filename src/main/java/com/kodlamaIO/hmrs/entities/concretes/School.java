@@ -67,8 +67,8 @@ public class School {
 	@JoinColumn(name = "user_id")
 	private User user;
 	
-	@JsonIgnore
-	@OneToMany(mappedBy = "school")	
-	private List<CurriculumVitae> curriculumVitaes;
+//	@JsonIgnore
+//	@OneToMany(mappedBy = "school")
+//	private List<CurriculumVitae> curriculumVitaes;
 	
 }

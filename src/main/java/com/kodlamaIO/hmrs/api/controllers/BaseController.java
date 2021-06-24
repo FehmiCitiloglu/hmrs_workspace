@@ -13,8 +13,9 @@ import com.kodlamaIO.hmrs.core.utilities.results.Result;
 
 @RequestMapping("/{}")
 public interface BaseController<T> {
-	@GetMapping("/getAll")
+
 	public DataResult<List<T>> getAll();
-	@PostMapping("/add")
+
 	public Result add(@RequestBody T data);
+
 }
